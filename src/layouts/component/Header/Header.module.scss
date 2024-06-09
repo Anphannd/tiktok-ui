@@ -1,0 +1,64 @@
+.wrapper {
+    --Search-button-width: 52px;
+
+    width: 100%;
+    height: var(--default-layout-header-height);
+    box-shadow: 0 1px 1px rgb(0 0 0 / 12%);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    z-index: 10;
+}
+.inner {
+    height: 100%;
+    width: var(--default-layout-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-link {
+    display: flex;
+}
+
+// action
+.action {
+    display: flex;
+    align-items: center;
+}
+.action-btn {
+    background-color: transparent;
+    font-size: 2.2rem;
+    color: #161823;
+    padding: 4px 12px;
+    transform: translateY(7%);
+}
+.more-btn {
+    font-size: 2rem;
+    background-color: transparent;
+    margin-left: 20px;
+    color: rgba(22, 24, 35, 0.75);
+    padding: 6px;
+    cursor: pointer;
+}
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+// buy
+.bought {
+    position: absolute;
+    background-color: var(--primary);
+    top: 1px;
+    border-radius: 10px;
+    padding: 0px 8px;
+    right: 4px;
+    font-size: 1.2rem;
+    color: #fff;
+    border: 1px solid;
+}
