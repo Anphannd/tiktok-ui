@@ -26,6 +26,7 @@
         font-size: 1.6rem;
         background-color: transparent;
         outline: none;
+        padding-right: 40px; // fix viết dài chữ trên input
     }
     // khi viết vào input Search-btn dc focus đổi màu đậm
     input:not(:placeholder-shown) ~ .Search-btn {

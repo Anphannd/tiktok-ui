@@ -136,7 +136,7 @@ const MENU_ITEM = [
     },
 ];
 export const AnotherComponent = ({ setSearchValue }) => {
-    //
+    //khi click vao logo tiktok xoa du lieu nhapinput
     setSearchValue('');
 };
 
@@ -245,7 +245,7 @@ function Header() {
                         </svg>
                     </Link>
                 </div>
-                <Button>{['hihi', 'phi phi']}</Button>
+
                 <Search />
                 <div className={cx('action')}>
                     {currentUser ? (
@@ -269,8 +269,8 @@ function Header() {
                         </>
                     ) : (
                         <>
-                            <Button text>up Load</Button>
-                            <Button primary>log in</Button>
+                            <Button text>Up Load</Button>
+                            <Button primary>Log in</Button>
                         </>
                     )}
                     <Menu items={userMenu} onChange={handleMenuChange}>

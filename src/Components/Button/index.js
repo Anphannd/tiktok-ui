@@ -58,8 +58,21 @@ function Button({
         </Comp>
     );
 }
-Button.PropsTypes = {
-    children: PropsTypes.node,
+Button.propsTypes = {
+    to: PropsTypes.string,
+    children: PropsTypes.node.isRequired,
+    onClick: PropsTypes.func,
+    href: PropsTypes.string,
+    text: PropsTypes.bool,
+    small: PropsTypes.bool,
+    outLine: PropsTypes.bool,
+    primary: PropsTypes.bool,
+    large: PropsTypes.bool,
+    disabled: PropsTypes.bool,
+    rounded: PropsTypes.string,
+    className: PropsTypes.string,
+    leftIcon: PropsTypes.node,
+    rightIcon: PropsTypes.node,
 };
 
 export default Button;
